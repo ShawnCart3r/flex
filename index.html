@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <header class="header">
+            <img src="/image/logo.png" alt="logo" class="logo">
+
+           <form action="#" class="search">
+                 <input type="text" class="search__input" placeholder=" Find Hotel">
+                <button class="search__button">
+                    <svg class="search__icon">
+                        <use xlink:href="image/sprite.svg#icon-magnifying-glass"></use>
+                    </svg>
+                </button>
+            </form>
+
+            <nav class="user-nav">
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="image/sprite.svg#icon-bookmark"></use>
+                    </svg>
+                    <span class="user-nav__notification">7</span>
+                </div>
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="image/sprite.svg#icon-chat"></use>
+                    </svg>
+                    <span class="user-nav__notification">13</span>
+                </div>
+
+                <div class="user-nav__user">
+                    <img src="image/me.jpg" alt="User photo" class="user-nav__user-photo">
+                    <span class="user-nav__user-name">Shawn</span>
+                </div>
+            </nav>
+         
+          
+
+        </header>
+        <div class="content">
+            <nav class="sidebar">
+                <ul class="side-nav">
+                    <li class="side-nav__item side-nav__item--active">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="image/sprite.svg#icon-home"></use>
+                                </svg>
+                                <span>Hotel</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="image/sprite.svg#icon-aircraft-take-off"></use>
+                                    </svg>
+                                    <span>Flight</span>
+                                </a>
+                            </li>
+                            <li class="side-nav__item">
+                                <a href="#" class="side-nav__link">
+                                    <svg class="side-nav__icon">
+                                        <use xlink:href="image/sprite.svg#icon-key"></use>
+                                        </svg>
+                                        <span>Car Rental</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav__item">
+                                    <a href="#" class="side-nav__link">
+                                        <svg class="side-nav__icon">
+                                            <use xlink:href="image/sprite.svg#icon-map"></use>
+                                            </svg>
+                                            <span>Tourism</span>
+                                        </a>
+                                    </li>
+                </ul>
+                <div class="legal">
+                    &copy; 2021 by Vermont Tourism. All rights reserved.
+                </div>
+
+            </nav>
+            <main class="hotel-view">
+                <div class="gallery">
+                    <figure class="gallery__item">
+                        <img src="image/hotel-1.jpg" alt="hotel 1" class="gallery__photo photo__photo-1">
+                    </figure>
+                    <figure class="gallery__item">
+                        <img src="image/hotel-2.jpg" alt="hotel 2" class="gallery__photo photo__photo-2">
+                    </figure> 
+                    <figure class="gallery__item">
+                        <img src="image/hotel-3.jpg" alt="hotel 3" class="gallery__photo photo__photo-3">
+                    </figure>
+                </div>
+
+                <div class="overview">
+                    <h1 class="overview__heading">
+                        Hotel Paradise Realm
+                    </h1>
+                    <div class="overview__star">
+                        <svg class="overview__icon-star">
+                            <use xlink:href="image/sprite.svg#icon-star"></use>
+
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="image/sprite.svg#icon-star"></use>
+                            
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="image/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="image/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="image/sprite.svg#icon-star"></use>
+                        </svg>
+                       
+                       
+                    </div>
+                    <div class="overview__location">
+                        <svg class="overview__icon-location">
+                            <use xlink:href="image/sprite.svg#icon-location-pin"></use>
+                        </svg>
+                        <button class="btn-inline">Albufeira, Portugal</button>
+                    </div>
+
+                    <div class="overview__rating">
+                        <div class="overview__rating-average">8.6</div>
+                        <div class="overview__rating-count">429 votes</div>
+                    </div>
+
+                </div>
+
+                <div class="detail">
+                   <div class="description">
+                       <p class="paragraph">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+                       </p>
+                       <p class="paragraph">   
+                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+                       </p>
+                       <ul class="list">
+                           <li class="list__item">Close to The Beach</li>
+                           <li class="list__item">Breakfast included</li>
+                           <li class="list__item">Free Airport Shuttle</li>
+                           <li class="list__item">Free Wife in all rooms</li>
+                           <li class="list__item">Air conditioning and heating</li>
+                           <li class="list__item">Pets allowed</li>
+                           <li class="list__item">All languages</li>
+                           <li class="list__item"> Perfect for families</li>
+                       </ul>
+                       <div class="recommend">
+                           <p class="recommend__count">
+                             Kerrigan and four other ppl recommend this hotel!  
+                           </p>
+
+                           <img src="http://placekitten.com/200/200" alt="photo" class="recommend__photo">
+                           <img src="http://placekitten.com/300/200" alt="photo" class="recommend__photo">
+                           <img src="http://placekitten.com/500/200" alt="photo" class="recommend__photo">
+                           <img src="http://placekitten.com/600/200" alt="photo" class="recommend__photo">
+                       </div>
+
+                   </div>
+                   <div class="user-review">
+                       <figure class="review">
+                           <blockquote class="review__text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
+                           </blockquote>
+                           <figcaption class="review__user">
+                               <img src="http://placekitten.com/200/200" alt="user 1" class="review__photo">
+                               <div class="review__user-box">
+                                   <p class="review__user-name">Joe Smith</p>
+                                   <p class="review__user-date">Feb 17th, 2021</p>
+                               </div>
+
+                               <div class="review__rating">
+                                   7.8
+
+                               </div>
+                           </figcaption>
+
+                       </figure>
+
+                       <figure class="review">
+                        <blockquote class="review__text">
+                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
+                        </blockquote>
+                        <figcaption class="review__user">
+                            <img src="http://placekitten.com/100/200" alt="user 1" class="review__photo">
+                            <div class="review__user-box">
+                                <p class="review__user-name">Gabby Fish</p>
+                                <p class="review__user-date">Feb 17th, 2021</p>
+                            </div>
+
+                            <div class="review__rating">
+                                9.3
+                            </div>
+                        </figcaption>
+
+                    </figure>
+                    
+                  <button class="btn-inline">Show all <span>&rarr;</span></button>
+
+                   </div> 
+
+                   
+                   </div>
+                </div>
+                <div class="cta">
+                    <h2 class="cta__book-now">
+                        Good news We have 4 free rooms for your selective dates!
+                    </h2>
+                    <button class="btn">
+                        <span class="btn__visible">Book now!</span>
+                        <span class="btn__invisible"> Only 4 rooms left!</span>
+                       
+                    </button>
+
+            </main>
+        </div>
+        
+    </div>
+    
+    
+</body>
+</html>
